@@ -6,5 +6,5 @@ loop1:mov ax,cx
       cmp ax,bx
       jne loop1
       dec cx 
-      mov [1500h],cx         ;the square root can be found in the address 1500h in hexadecimal number system
+      mov [1500h],cx         ;the square root can be found in the address 1500h in hexadecimal format
       hlt
